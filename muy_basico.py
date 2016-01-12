@@ -23,4 +23,15 @@ print ("modulo  " + str(21 % 5))
 
 print ("potencia  " + str(5 ** 2))
 
+#Tres lineas de texto juntas
+print ("\n")
+print ("""\
+Uso: algo [OPCION]
+	-h	muestra el mensage de uso
+	-H	Muestra el host al cual conectarse
+
+""")
+
+#repetir cadenas de texto
+print ("\n \n" + 5 * " Victor ")
 
